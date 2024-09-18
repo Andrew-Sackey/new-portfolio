@@ -55,6 +55,10 @@ nav {
   align-items: center;
   height: 100vh;
   padding: 0 10%;
+  background-image: url(./images/home-image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .home-content {
@@ -184,4 +188,113 @@ nav {
 
 .home-sci a:hover::before {
     width: 100%;
+}
+
+/* .port-sect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+} */
+
+.port-sect h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+}
+
+.port-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.port-links a:hover {
+  color: #00abf0;
+}
+
+.portfolio-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 60px;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+
+}
+
+.port-items {
+  width: 80%;
+  text-align: center;
+  margin-left: 55px;
+}
+
+.port-items p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+.port-items img {
+  width: 85%;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.about-me-image {
+  background-image: url(./images/about-image.png);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
+
+.about-header h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 55px;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 20px;
+}
+
+.about-imagee img {
+  /* border-radius: 100%; */
+  height: 400px;
+  width: 400px;
+  border-radius: 100%; 
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-imagee p {
+  font-size: 20px;
+  font-family:"Nunito", sans-serif;
+  text-align: center;
+}
+
+.about-imagee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
