@@ -23,9 +23,9 @@ nav {
   align-items: center;
   justify-items: center;
   background-color: transparent;
-  top: 0;
+  /* top: 0;
   left: 0;
-  position: fixed;
+  position: fixed; */
 }
 
 .nav-items {
