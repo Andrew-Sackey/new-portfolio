@@ -47,6 +47,11 @@ nav {
   margin-left: 10%;
 }
 
+.nav-pop {
+  background-color: #00ABF0;
+  color: white;
+}
+
 .nav-items a:hover,
 .nav-items .active {
   color: #00abf0;
@@ -289,6 +294,10 @@ nav {
   font-size: 20px;
   font-family: "Nunito", sans-serif;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  font-weight: 400;
 }
 
 .about-imagee {
@@ -412,7 +421,7 @@ nav {
 
 .services p {
   font-size: 1rem;
-  font-weight: lighter;
+  font-weight: 300;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: whitesmoke;
 }
@@ -550,12 +559,20 @@ nav {
   font-weight: 200;
   font-family: 'Times New Roman', Times, serif;
   color: #880fc4;
+  margin-left: 10px;
 }
 
 .coll h3 {
   width: fit-content;
   margin-bottom: 40px;
   position: relative;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.coll p {
+  font-size: 16px;
+  font-family: sans-serif;
 }
 
 .coll input {
@@ -567,6 +584,7 @@ nav {
   border-bottom: 1px solid #ccc;
   margin: 20px 0;
   color: white;
+  font-size: 16px;
 }
 
 ul {
@@ -580,7 +598,7 @@ ul {
 ul a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 form {
@@ -594,7 +612,7 @@ form {
 
 form i {
   font-size: 18px;
-  margin-right: 10px;
+  margin-right: 2opx;
   color: white;
 }
 
@@ -602,8 +620,9 @@ form input {
   width: 100%;
   background: transparent;
   color: #ccc;
-  border: 0;
+  border: none;
   outline: none;
+  margin-right: 20%;
 }
 
 form button {
@@ -611,7 +630,9 @@ form button {
   border: 0;
   outline: none;
   cursor: pointer;
+  margin-right: 20px;
 }
+
 
 .social-icons {
   width: 40px;
@@ -637,6 +658,11 @@ form button {
   top: 25px;
   left: 25px;
 }
+
+.underline h4 {
+  font-size: 16px;
+}
+
 hr {
   border: 1px solid yellow;
   display: block;
